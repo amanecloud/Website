@@ -45,7 +45,7 @@ properties:
   ENABLE_HA : "no"
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD
-  SITE_URL : "https://www.ecloudcontrol.com"
+  #SITE_URL : ""
   SITE_TITLE : "CLOUDCONTROL"
   ADMIN_USER : webmaster
   ADMIN_EMAIL : webmaster@ecloudcontrol.com
