@@ -1,7 +1,7 @@
 app:
   name: eCloudControl.com
   code: ECSWEB
-  notify: appzdev@cloudbourne.co
+  notify: apatnaik@ecloudcontrol.com
 
 build:
   version: 3.0
@@ -12,7 +12,7 @@ build:
   image_name: myco/website
 
 deploy:
-  context: myco/DEV
+  context: amanecloud/DEV
   type: statefulset
   replicas: 1
   resources: xx-large
@@ -36,7 +36,7 @@ volumes:
     matchLabels: false
 
 monitor:
-  notify: appzops@cloudbourne.co      
+  notify: apatnaik@ecloudcontrol.com 
 
 properties:
   MYSQL_HOST : "mysql-5-7:3306"
@@ -55,5 +55,5 @@ properties:
      vault: SITE_PRIVATE_KEY
   SITE_CERT: 
      vault: SITE_CERT
-  revision : 40
+  revision : 0
        
